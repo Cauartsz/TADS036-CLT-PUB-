@@ -2,13 +2,16 @@
 
 body {
     font-family: "Ubuntu", sans-serif;
+    background-color: #edf7ff;
 }
 
 table {
     font-family: arial, sans-serif;
-    border-collapse: collapse;
+    border-collapse: ;
     width: 80%;
     margin-left: 10%;
+    border: 3px;
+    border-color: #384B70;
 }
 
 td {
@@ -34,13 +37,13 @@ tr:nth-child(even) {
 }
 
 address {
-    margin-left: 3%;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 
 footer {
     font-family: arial, sans-serif;
     text-align: center;
+    background-color: #def1ff;
 }
 
 iframe {
@@ -50,8 +53,7 @@ iframe {
 }
 
 hr {
-    width: 80%;
-    margin-left: 10%;
+    width: 100%;
 }
 
 ul {
@@ -59,10 +61,6 @@ ul {
 }
 
 
-
-body {
-    background-image: linear-gradient(to top,#ffffff);
-}
 
 a:link {
     color: #0091ff;
@@ -73,17 +71,19 @@ a:visited {
 }
 
 a:hover {
-    color: #ffffff;
+    color: #00e1ff;
 }
 
 a:active {
-    color: #ffffff;
+    color: #00d9ff;
 }
 
 
 
 #apresentacao {
     text-align: center;
+    background-color: #def1ff;
+    padding-top: 20px;
 }
 
 
@@ -93,6 +93,8 @@ a:active {
 
 #center {
     text-align: center;
+    height: 30%;
+    width: 30%;
 }
 
 #sobre{
@@ -105,6 +107,8 @@ a:active {
 #exp {
     font-family: arial, sans-serif;
     margin-left: 5%;
+    border: 3px;
+    border-color: #384B70;
 }
 
 #form {
@@ -113,6 +117,11 @@ a:active {
 }
 
 #menu {
+    font-family: arial, sans-serif;
+    text-align: center;
+}
+
+#cursos {
     font-family: arial, sans-serif;
     margin-left: 5%;
 }
