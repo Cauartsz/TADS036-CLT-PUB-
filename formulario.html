@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="css/curriculocaua.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+
+   
+
+    <title>Cauã Souza</title>
+</head>
+
+<form action="#">
+    <fieldset>
+      <legend>Nome e sobrenome</legend>
+      <input type="text" id="ns" name="agree" value="Insira seu nome" required />
+    </fieldset>
+  </form>
+
+  <form action="#">
+    <fieldset>
+      <legend>Telefone</legend>
+      <input type="text" id="tel" name="agree" value="(99) 9999-9999" required />
+    </fieldset>
+  </form>
+
+  <form action="#">
+    <fieldset>
+      <legend>Email</legend>
+      <input type="text" id="em" name="agree" value="Insira seu email" required />
+    </fieldset>
+  </form>
+
+  <form action="#">
+    <fieldset>
+      <legend>Mensagem</legend>
+      <input type="text" id="ms" name="agree" value="Informe o que deseja" required />
+    </fieldset>
+  </form>
+
+  <form action="#">
+    <fieldset>
+      <legend>Língua</legend>
+      <input type="text" id="list" list="lingua" />
+      <datalist id="lingua">
+        <option value=Português></option>
+        <option value="Inglês"></option>
+        <option value="Espanhol"></option>
+        <option value="Francês"></option>
+      </datalist>
+    </fieldset>
+  </form>
+
+  <form action="#">
+    <fieldset>
+      <legend>Arquivo</legend>
+      <input type="file" id="fl" />
+      <accept=".pdf,.doc,.docx,.jpg.png"/>
+    </fieldset>
+  </form>
+
+  <form>
+    <fieldset>
+    <legend>Defina suas linguagens</legend>
+    <select name="Linguagens">
+        <option value="xbox">Java</option>
+        <option value="ps5">C</option>
+        <option value="nsw">C++</option>
+        <option value="pcg">PHP</option>
+    </select>
+  </fieldset>
+</form>
+
+<fieldset>
+  <legend>Tipo de Banco de Dados</legend>
+  <div>
+    <input type="radio" id="sql" name="sql" value="MySQL" />
+    <label for="MySQL">MySQL</label>
+  </div>
+  <div>
+    <input type="radio" id="dewey" name="drone" value="Postgresql" />
+    <label for="Postgresql">Postgresql</label>
+  </div>
+  <div>
+    <input type="radio" id="louie" name="drone" value="MongoDB" />
+    <label for="MongoDB">MongoDB</label>
+  </div>
+  <div>
+    <input type="radio" id="louie" name="drone" value="N/A" />
+    <label for="N/A">N/A</label>
+  </div>
+  <div>
+    <input type="radio" id="louie" name="drone" value="outro" />
+    <label for="outro">outro</label>
+  </div>
+</fieldset>
+
+<fieldset>
+  <legend>Escolha um turno</legend>
+
+  <div>
+    <input type="checkbox" id="scales" name="scales" checked />
+    <label for="scales">Manhã</label>
+  </div>
+  <div>
+    <input type="checkbox" id="horns" name="horns" />
+    <label for="horns">Tarde</label>
+  </div>
+  <div>
+    <input type="checkbox" id="horns" name="horns" />
+    <label for="horns">Noite</label>
+  </div>
+</fieldset>
+
+<form action="#">
+  <fieldset>
+    <legend>Melhor horário</legend>
+    <input type="time" id="tm" name="agree" value="Insira seu nome" />
+  </fieldset>
+</form>
+
+<form action="#">
+  <fieldset>
+    <legend>Data prevista</legend>
+    <input type="date" id="dr" name="agree" value="Insira seu nome" required />
+  </fieldset>
+</form>
+
+<form>
+  <div class="controls">
+    <input type="reset" value="Limpar" />
+    <input type="submit" value="Enviar" />
+  </div>
+</form>
+
+</html>
